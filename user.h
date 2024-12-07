@@ -8,12 +8,13 @@ class User {
     string password;
     string accountType; //checking or saving 
     double balance;
+    double initialDeposit;
     int accountNumber;
     int userPin;
     public:
     //constructors
     User();
-    User(string userName, string password, string accountType);
+    User(string c_userName, string c_password, string c_accountType, int c_initialDeposit, int c_userPin);
     //getters
     string getUsername();
     string getPassword();
